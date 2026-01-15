@@ -23,7 +23,6 @@ function App() {
 
   const onSubmit = (item:IUser ) => {
     //stanum a bolor dashteri arjeqy 
-    console.log(item)
     dispatch(setUser(item))
     //usery stateum a pahvum
     reset()
