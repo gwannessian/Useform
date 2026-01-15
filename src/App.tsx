@@ -34,7 +34,6 @@ function App() {
     <div className="input-parent">
     <form className="form" onSubmit={handleSubmit(onSubmit)}>
       <div className="form-title-test">LOG IN</div>
-      <UserInput register={register} error={errors.userName?.message} />
       <EmailInput register={register} error={errors.email?.message} />
       <PassInput register={register} error={errors.password?.message} />
       <button className="submitButton" type="submit">Submit</button>
